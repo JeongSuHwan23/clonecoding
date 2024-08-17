@@ -5,8 +5,9 @@
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  justify-content: space;
-  padding: 5px 3px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 3px;
 }
 
 .status-bar__column {
@@ -14,15 +15,15 @@
 }
 
 .status-bar__column:first-child {
-  margin-right: 10px;
+  margin-right: auto;
 }
 
 .status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .status-bar__column:last-child {
+  margin-left: auto;
   display: flex;
   justify-content: flex-end;
   align-items: center;
