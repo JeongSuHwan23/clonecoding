@@ -1,0 +1,21 @@
+/* settings, chatting page에 사용되는 해더바 */
+.alt-header {
+  padding: 40px var(--horizontal-space) 14px var(--horizontal-space);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+}
+
+.alt-header__tilte {
+  font-size: 32px;
+  font-size: 600;
+}
