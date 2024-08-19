@@ -23,10 +23,25 @@
   position: absolute;
   left: 15px;
   bottom: 12px;
+  animation: chatsNotificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__more-notification {
   position: absolute;
   left: 26px;
   bottom: 24px;
+}
+
+@keyframes chatsNotificationAnimation {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(5px);
+  }
+
+  100% {
+    transform: none;
+  }
 }
